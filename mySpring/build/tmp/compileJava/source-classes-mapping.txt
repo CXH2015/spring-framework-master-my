@@ -1,0 +1,6 @@
+org/my/config/AppConfig.java
+ org.my.config.AppConfig
+org/my/model/User.java
+ org.my.model.User
+org/my/StartupRunner.java
+ org.my.StartupRunner

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-02-23T08:38:46" hostname="CHENGXINHUA-PC" time="0.089">
+  <properties/>
+  <testcase name="configuredThroughNamespace()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.048"/>
+  <testcase name="taskExecutorByBeanName()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.004"/>
+  <testcase name="taskExecutorByBeanType()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.004"/>
+  <testcase name="exceptionHandlerThrowsUnexpectedException()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="handleExceptionWithCustomExceptionHandler()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="threadNamePrefix()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.002"/>
+  <testcase name="handleExceptionWithFuture()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.014"/>
+  <testcase name="proxyCreated()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="handleExceptionWithListenableFuture()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.007"/>
+  <testcase name="invokedAsynchronously()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.001"/>
+  <testcase name="invokedAsynchronouslyOnProxyTarget()" classname="org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Feb. 23, 2021 4:38:46 P.M. ClientIntermediary close
+INFO: java.io.IOException: The connection is not currently established.
+java.io.IOException: The connection is not currently established.
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.checkState(ClientSynchroMessageConnectionImpl.java:617)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl.sendOneWay(ClientSynchroMessageConnectionImpl.java:202)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:300)
+	at javax.management.remote.generic.GenericConnector.close(GenericConnector.java:271)
+	at javax.management.remote.generic.ClientIntermediary$GenericClientCommunicatorAdmin.doStop(ClientIntermediary.java:897)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.restart(ClientCommunicatorAdmin.java:172)
+	at com.sun.jmx.remote.opt.internal.ClientCommunicatorAdmin.gotIOException(ClientCommunicatorAdmin.java:73)
+	at javax.management.remote.generic.GenericConnector$RequestHandler.execute(GenericConnector.java:662)
+	at com.sun.jmx.remote.generic.ClientSynchroMessageConnectionImpl$RemoteJob.run(ClientSynchroMessageConnectionImpl.java:568)
+	at com.sun.jmx.remote.opt.util.ThreadService$ThreadServiceJob.run(ThreadService.java:248)
+	at com.sun.jmx.remote.opt.util.JobExecutor.run(JobExecutor.java:99)
+
+]]></system-err>
+</testsuite>

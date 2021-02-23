@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2021-02-23T08:38:29" hostname="CHENGXINHUA-PC" time="0.059">
+  <properties/>
+  <testcase name="componentScanViaImport()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.019"/>
+  <testcase name="circularImportViaComponentScan()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.009"/>
+  <testcase name="componentScanViaImportUsingScan()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.009"/>
+  <testcase name="componentScanViaImportUsingAsm()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.012"/>
+  <testcase name="componentScanOverlapsWithImport()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.004"/>
+  <testcase name="componentScanOverlapsWithImportUsingAsm()" classname="org.springframework.context.annotation.ComponentScanAndImportAnnotationInteractionTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

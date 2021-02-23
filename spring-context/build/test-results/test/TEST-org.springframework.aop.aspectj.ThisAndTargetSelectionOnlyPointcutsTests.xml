@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2021-02-23T08:38:20" hostname="CHENGXINHUA-PC" time="0.098">
+  <properties/>
+  <testcase name="testThisAsInterfaceAndTargetAsClassCounterMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsTests" time="0.015"/>
+  <testcase name="testTargetAsClassDoesMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsTests" time="0.012"/>
+  <testcase name="testTargetAsInterfaceMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsTests" time="0.013"/>
+  <testcase name="testThisAsClassDoesNotMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsTests" time="0.015"/>
+  <testcase name="testThisAsInterfaceAndTargetAsInterfaceCounterMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsTests" time="0.016"/>
+  <testcase name="testThisAsClassAndTargetAsClassCounterNotMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsTests" time="0.013"/>
+  <testcase name="testThisAsInterfaceMatch()" classname="org.springframework.aop.aspectj.ThisAndTargetSelectionOnlyPointcutsTests" time="0.013"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
